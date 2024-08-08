@@ -28,8 +28,10 @@ html {
 }
 
 section {
-    padding: 20rem 9%;
+    padding: 0rem 10%;
 }
+
+
 
 .heading {
     font-size: 9rem;
@@ -85,9 +87,22 @@ section {
     padding: 2rem 9%;
 }
 
+
+
+.logo-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .header .logo {
-    color: var(--main-color);
-    font-size: 2.3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    max-width: 200px; /* Adjust maximum width as needed */
+    max-height: 100px; /* Adjust maximum height as needed */
 }
 
 .header .logo i {
@@ -129,11 +144,11 @@ section {
 }
 
 .home .row .content {
-    flex: 1 1 42rem;
+    flex: 1 1 12rem;
 }
 
 .home .row .image {
-    flex: 1 1 42rem;
+    flex: 1 1 72rem;
     padding-top: 10rem;
     text-align: center;
 }
@@ -183,7 +198,7 @@ section {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 10.5rem;
 }
 
 .about .row .image {
@@ -216,25 +231,25 @@ section {
 .about .row .content .title {
     color: var(--main-color);
     font-size: 3rem;
-    line-height: 1.8;
+    line-height: 0.8;
 }
 
 .about .row .content p {
     color: var(--main-color);
     font-size: 1.5rem;
     line-height: 1.8;
-    padding: 1rem 0;
+    padding: 3rem 0;
 }
 
 .about .row .content .icons-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
-    padding-top: 3rem;
+    gap: 5rem;
+    padding-top: 4rem;
 }
 
 .about .row .content .icons-container .icons {
-    flex: 1 1 15rem;
+    flex: 1 1 1rem;
     padding: 1.5rem;
     text-align: center;
     border: var(--border);
@@ -262,7 +277,7 @@ section {
 .menu .box-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 3rem;
     justify-content: center;
 }
 
